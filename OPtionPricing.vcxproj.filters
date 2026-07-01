@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="File di origine">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="File di intestazione">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="File di risorse">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="File di origine\Option">
+      <UniqueIdentifier>{ee284fce-2add-48ea-b2ef-16b751327def}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\Model">
+      <UniqueIdentifier>{0f2d10c4-a50e-4bba-8199-c960c21f30be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\MonteCarloProducts">
+      <UniqueIdentifier>{28e597a7-063f-49ec-892e-a944021a42bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\Model">
+      <UniqueIdentifier>{6df3c0f9-3f19-493b-b817-4c23a16f9b7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\Option">
+      <UniqueIdentifier>{a5e95cf3-9bb2-427e-ab8f-574be8246398}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\MonteCarloProducts">
+      <UniqueIdentifier>{3623a95c-a8a1-40e8-a38a-7027ac571430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\Test">
+      <UniqueIdentifier>{83370c9d-ab11-462a-9c56-61a633e417c9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Europeanoption.cpp">
+      <Filter>File di origine\Option</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackandScholes.cpp">
+      <Filter>File di origine\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="MonteCarloGenerator.cpp">
+      <Filter>File di origine\MonteCarloProducts</Filter>
+    </ClCompile>
+    <ClCompile Include="MonteCarloPricer.cpp">
+      <Filter>File di origine\MonteCarloProducts</Filter>
+    </ClCompile>
+    <ClCompile Include="BarrierOption.cpp">
+      <Filter>File di origine\Option</Filter>
+    </ClCompile>
+    <ClCompile Include="OPtionPricing.cpp">
+      <Filter>File di origine\Test</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BlackandScholes.h">
+      <Filter>File di intestazione\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>File di intestazione\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="EuropeaOption.h">
+      <Filter>File di intestazione\Option</Filter>
+    </ClInclude>
+    <ClInclude Include="IOption.h">
+      <Filter>File di intestazione\Option</Filter>
+    </ClInclude>
+    <ClInclude Include="MonteCarloGenerator.h">
+      <Filter>File di intestazione\MonteCarloProducts</Filter>
+    </ClInclude>
+    <ClInclude Include="MonteCarloPricer.h">
+      <Filter>File di intestazione\MonteCarloProducts</Filter>
+    </ClInclude>
+    <ClInclude Include="BarrierOption.h">
+      <Filter>File di intestazione\Option</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
